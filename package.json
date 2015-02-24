@@ -1,0 +1,16 @@
+{
+  "name": "tiy-assignment-16-part2",
+  "version": "1.0.0",
+  "description": "make and test 10 functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "make",
+    "test",
+    "functions"
+  ],
+  "author": "Katherine Trammell",
+  "license": "ISC"
+}
