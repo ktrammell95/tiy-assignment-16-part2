@@ -22,9 +22,17 @@ describe("Gizmo", function() {
     describe("rounding", function() {
 
       it("rounds a number to nearest integer", function() {
-        expect( giz.rounding("6.896") ).eq(7);
+        expect( giz.rounding(6.896) ).eq(7);
       });
     });
+
+    describe("complexMath", function() {
+
+      it("takes a number and adds it to 100 then divides by 5", function() {
+        expect( giz.complexMath(10) ).eq(22);
+      });
+    });
+
 
     describe("upperCase", function() {
 
@@ -47,7 +55,7 @@ describe("Gizmo", function() {
       });
     });
 
-
+    
 
 
 

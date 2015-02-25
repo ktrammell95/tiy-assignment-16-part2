@@ -18,6 +18,10 @@ window.Gizmo = (function() {
       return Math.round(num);
     },
 
+    complexMath: function(num) {
+      return (num + 100)/5;
+    },
+
     upperCase: function(string) {
       return string.toUpperCase();
     },
@@ -31,7 +35,7 @@ window.Gizmo = (function() {
       return string.fontcolor("red");
     },
 
-
+    
 
 
 
