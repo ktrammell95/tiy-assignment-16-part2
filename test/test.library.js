@@ -26,6 +26,12 @@ describe("Gizmo", function() {
       });
     });
 
+    describe("rounding", function() {
+
+      it("rounds a number to nearest integer", function() {
+        expect( giz.rounding("6.896") ).eq(7);
+      });
+    });
 
 
 

@@ -19,6 +19,10 @@ window.Gizmo = (function() {
       return string.length
     },
 
+    rounding: function(num) {
+      return Math.round(num);
+    },
+
 
 
 
