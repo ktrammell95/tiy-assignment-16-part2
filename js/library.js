@@ -14,6 +14,26 @@ window.Gizmo = (function() {
       return width * height;
     },
 
+    stringLength: function(string) {
+      string.split("").join("");
+      return string.length
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   };
 
 
