@@ -35,6 +35,9 @@ window.Gizmo = (function() {
       return string.fontcolor("red");
     },
 
+    stringReplace: function(string) {
+      return string.replace(string, "Gizmo is the cutest dog in the world!");
+    },
     
 
 

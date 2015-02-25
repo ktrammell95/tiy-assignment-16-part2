@@ -33,7 +33,6 @@ describe("Gizmo", function() {
       });
     });
 
-
     describe("upperCase", function() {
 
       it("takes a string and returns it all in uppercase letters", function() {
@@ -52,6 +51,13 @@ describe("Gizmo", function() {
 
       it("takes a string and changes the font color to red", function() {
         expect( giz.stringColor("Katherine") ).eq('<font color="red">Katherine</font>');
+      });
+    });
+
+    describe("stringReplace", function() {
+
+      it("takes a string and replaces it with a certain phrase", function() {
+        expect( giz.stringReplace("Katherine") ).eq("Gizmo is the cutest dog in the world!");
       });
     });
 
