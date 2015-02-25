@@ -10,6 +10,10 @@ window.Gizmo = (function() {
       return num += 5;
     },
 
+    division: function(num) {
+      return num /= 2;
+    },
+
     getArea: function(width, height) {
       return width * height;
     },
@@ -43,16 +47,6 @@ window.Gizmo = (function() {
       return string.replace(string, "Gizmo is the cutest dog in the world!");
     },
     
-
-
-
-
-
-
-
-
-
-
   };
 
 

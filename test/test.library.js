@@ -12,6 +12,13 @@ describe("Gizmo", function() {
       });
     });
 
+    describe("division", function() {
+
+      it("takes a number and divides it by 2 ", function() {
+        expect( giz.division(6) ).eq(3);
+      });
+    });
+
     describe("getArea", function() {
 
       it("multiplies width by height to get area ", function() {
@@ -61,17 +68,10 @@ describe("Gizmo", function() {
       });
     });
 
-
     describe("stringReplace", function() {
 
       it("takes a string and replaces it with a certain phrase", function() {
         expect( giz.stringReplace("Katherine") ).eq("Gizmo is the cutest dog in the world!");
       });
     });
-
-    
-
-
-
-
 });
