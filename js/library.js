@@ -10,6 +10,9 @@ window.Gizmo = (function() {
       return num += 5;
     },
 
+    getArea: function(width, height) {
+      return width * height;
+    },
 
   };
 
