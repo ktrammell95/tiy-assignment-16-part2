@@ -22,6 +22,10 @@ window.Gizmo = (function() {
       return (num + 100)/5;
     },
 
+    superComplexMath: function(num) {
+      return (num + 10 - 3)/(5-2)*24;
+    },
+
     upperCase: function(string) {
       return string.toUpperCase();
     },

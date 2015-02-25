@@ -33,6 +33,13 @@ describe("Gizmo", function() {
       });
     });
 
+    describe("superComplexMath", function() {
+
+      it("takes a number, adds 10 then subtracts 3, then divides it by 5 minus 2, then times it by 24", function() {
+        expect( giz.superComplexMath(10) ).eq(136);
+      });
+    });
+
     describe("upperCase", function() {
 
       it("takes a string and returns it all in uppercase letters", function() {
@@ -53,6 +60,7 @@ describe("Gizmo", function() {
         expect( giz.stringColor("Katherine") ).eq('<font color="red">Katherine</font>');
       });
     });
+
 
     describe("stringReplace", function() {
 
