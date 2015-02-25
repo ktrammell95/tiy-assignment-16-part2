@@ -1,15 +1,19 @@
-describe("KT", function() {
-  var kt;
+describe("Gizmo", function() {
+  var giz;
 
   beforeEach(function() {
-    kt = new KT();
+    giz = new Gizmo();
   });
 
-  describe("hello", function() {
+  describe("addition", function() {
 
-    it("takes a name and returns a greeting ", function() {
-      expect( KT.hello("Katherine") ).eq("Hello, Katherine, how are you?");
+    it("takes a number and adds 5 to it ", function() {
+      expect( giz.addition(5) ).eq(10);
     });
+
+  // });
+
+  
 
   });
 

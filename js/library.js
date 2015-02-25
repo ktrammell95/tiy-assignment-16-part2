@@ -1,20 +1,20 @@
-window.KT = (function() {
+window.Gizmo = (function() {
 
-  function KT() {
+  function Gizmo() {
 
   }
 
-  KT.prototype = {
+  Gizmo.prototype = {
 
-    // ----
+    addition: function(num) {
+      return num += 5;
+    },
 
-    KT.hello = function(name) {
-      return "Hello, " + name + ", how are you?";
-    }
 
   };
 
-  return KT;
+
+  return Gizmo;
 
   
 
