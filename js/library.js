@@ -23,7 +23,9 @@ window.Gizmo = (function() {
       return Math.round(num);
     },
 
-
+    upperCase: function(string) {
+      return string.toUpperCase();
+    },
 
 
 

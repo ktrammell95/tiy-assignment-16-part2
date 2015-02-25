@@ -33,7 +33,12 @@ describe("Gizmo", function() {
       });
     });
 
+    describe("upperCase", function() {
 
+      it("takes a string and returns it all in uppercase letters", function() {
+        expect( giz.upperCase("katherine") ).eq("KATHERINE");
+      });
+    });
 
 
 
