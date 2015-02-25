@@ -19,13 +19,6 @@ describe("Gizmo", function() {
       });
     });
 
-    describe("stringLength", function() {
-
-      it("takes a string and tells you length of it", function() {
-        expect( giz.stringLength("Katherine") ).eq(9);
-      });
-    });
-
     describe("rounding", function() {
 
       it("rounds a number to nearest integer", function() {
@@ -40,6 +33,19 @@ describe("Gizmo", function() {
       });
     });
 
+    describe("stringLength", function() {
+
+      it("takes a string and tells you length of it", function() {
+        expect( giz.stringLength("Katherine") ).eq(9);
+      });
+    });
+
+    describe("stringColor", function() {
+
+      it("takes a string and changes the font color to red", function() {
+        expect( giz.stringColor("Katherine") ).eq('<font color="red">Katherine</font>');
+      });
+    });
 
 
 

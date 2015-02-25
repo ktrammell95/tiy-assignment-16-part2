@@ -14,11 +14,6 @@ window.Gizmo = (function() {
       return width * height;
     },
 
-    stringLength: function(string) {
-      string.split("").join("");
-      return string.length
-    },
-
     rounding: function(num) {
       return Math.round(num);
     },
@@ -27,7 +22,14 @@ window.Gizmo = (function() {
       return string.toUpperCase();
     },
 
+    stringLength: function(string) {
+      string.split("").join("");
+      return string.length
+    },
 
+    stringColor: function(string) {
+      return string.fontcolor("red");
+    },
 
 
 
